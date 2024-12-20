@@ -1,0 +1,19 @@
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+
+// Định nghĩa hệ số dẫn nhiệt của vật liệu
+thermalConductivity
+{
+    solid
+    {
+        type            constant;
+        value           uniform 200;  // Ví dụ: hệ số dẫn nhiệt của chất rắn (W/m.K)
+    }
+}
+
